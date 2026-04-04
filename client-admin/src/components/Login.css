@@ -14,6 +14,7 @@
   padding: 40px 30px;
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 /* Title */
@@ -46,6 +47,7 @@
   outline: none;
   transition: 0.2s;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 .login-input:focus {
