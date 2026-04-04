@@ -1,0 +1,77 @@
+
+.modern-table-wrapper {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.modern-table th {
+  background: #f9fafb;
+  color: #4b5563;
+  font-weight: 700;
+  padding: 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.modern-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f3f4f6;
+  color: #1f2937;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.modern-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.table-action-link {
+  color: #e50027;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #fff0f2;
+  transition: 0.2s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.table-action-link:hover {
+  background: #e50027;
+  color: white;
+}
+
+.cart-summary {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 16px;
+  background: #fafafa;
+  border-top: 1px solid #e5e7eb;
+}
+
+.cart-total {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.cart-total-value {
+  color: #e50027;
+  font-size: 24px;
+  margin-left: 8px;
+}

@@ -1,0 +1,46 @@
+
+.inform-bar {
+  background: #ffffff;
+  padding: 8px 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.inform-left, .inform-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.inform-link {
+  color: #4b5563;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.inform-link:hover {
+  color: #e50027;
+}
+
+.inform-separator {
+  color: #d1d5db;
+}
+
+.inform-user-name {
+  color: #e50027;
+  font-weight: 700;
+}
+
+.inform-cart-count {
+  background: #e50027;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-left: 4px;
+}
