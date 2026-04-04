@@ -51,7 +51,7 @@
 }
 
 .datatable tr:hover {
-  background: #ffffff1f2;
+  background: #fffff1f2;
   cursor: pointer;
   transition: 0.2s;
 }

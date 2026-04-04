@@ -25,7 +25,8 @@ class Product extends Component {
           <td>{item.name}</td>
           <td>{item.price.toLocaleString('vi-VN')} ₫</td>
           <td>{new Date(item.cdate).toLocaleString()}</td>
-          <td>{item.category.name}</td>
+          {/* Đã thêm dấu ? để chống sập web nếu sản phẩm bị mất danh mục */}
+          <td>{item.category?.name || 'Không có DM'}</td>
           <td>
             <img
               className="product-image"
@@ -106,7 +107,10 @@ class Product extends Component {
 
   // event-handlers
   lnkPageClick(index) {
-    this.apiGetProducts(index);
+    // Đã sửa: Cập nhật giao diện (state) NGAY LẬP TỨC, sau đó mới gọi API
+    this.setState({ curPage: index }, () => {
+      this.apiGetProducts(index);
+    });
   }
 
   trItemClick(item) {
