@@ -1,4 +1,10 @@
+/* 1. Nhúng bộ font hỗ trợ tiếng Việt siêu chuẩn (Be Vietnam Pro) với đầy đủ độ đậm nhạt */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap');
 
+/* 2. Áp dụng kiểu chữ này cho TẤT CẢ mọi thành phần trên web */
+* {
+  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
 .dashboard-title {
   color: #1f2937;
   font-size: 28px;

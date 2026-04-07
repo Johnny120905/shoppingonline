@@ -1,12 +1,9 @@
-/* 1. BẮT BUỘC DÁN LỆNH IMPORT NÀY LÊN DÒNG ĐẦU TIÊN CỦA FILE */
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
 
 .body-admin {
   display: flex;
   min-height: 100vh;
   background: #f3f4f6;
-  /* 2. ĐỔI TÊN FONT Ở ĐÂY */
-  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   color: #1f2937;
 }
 
